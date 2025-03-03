@@ -1,0 +1,34 @@
+vps :: ~ » solana-keygen new          
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none): 
+
+Wrote new keypair to /root/.config/solana/id.json
+==============================================================================
+pubkey: 42Bxid9PBUpH4ANxrDD7pMQu4TuoDvHDYgpVgkB2JPSF
+==============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+success jungle ten opera web client avocado misery foster chat protect fiction
+==============================================================================
+
+
+
+vps :: ~ » spl-token create-token             
+Creating token 53NxhmeMZ6BabQGiga1FgX6mKSBgRwfHUJjT5PKoniRE under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Address:  53NxhmeMZ6BabQGiga1FgX6mKSBgRwfHUJjT5PKoniRE
+Decimals:  9
+
+Signature: 4VrNZXcXo2bD6hQiQS58rQPG2Z8qk5BLsp75KZSoxqHPD9uvJveq3zbqxzAocm4ewmrzh56hAWXRhvZPr4q28msU
+
+
+vps :: ~ » spl-token create-account 53NxhmeMZ6BabQGiga1FgX6mKSBgRwfHUJjT5PKoniRE
+Creating account ArfKAe7hz1vzgeAnpEdiGUyVS84ZCr12pG926U5fCTdc
+
+Signature: 4fPwWr5CF695rqAGcUWyVcwUxEQ5w72EMN8Nxe7M8kSvoYcovbyrh3g1o5Qmd8kQsmajWnPP36ujkX7K676b3BEW
+
